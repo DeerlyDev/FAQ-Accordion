@@ -1,6 +1,6 @@
 @use "../base/variables" as *;
 .bg-decorative-lines {
-  background-image: url("/assets/images/background-pattern-desktop.svg");
+  background-image: url("../assets/images/background-pattern-desktop.svg");
   height: 40vh;
   width: 100%;
   background-repeat: no-repeat;
@@ -8,7 +8,7 @@
   background-position: center;
 
   @media only screen and (max-width: 600px) {
-    background-image: url("/assets/images/background-pattern-mobile.svg");
+    background-image: url("../assets/images/background-pattern-mobile.svg");
   }
 }
 
