@@ -1,0 +1,23 @@
+@use "variables" as *;
+
+body {
+  font-family: $font-family-base;
+  background-color: $color-purple-100;
+  color: $color-purple-950;
+
+  line-height: 1.5;
+
+  /* padding-bottom: 5rem; */
+  /* min-height: 100vh; */
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}

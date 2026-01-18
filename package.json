@@ -1,0 +1,16 @@
+{
+  "name": "faq-accordion-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the FAQ accordion coding challenge](preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass scss/main.scss css/main.css",
+    "sass:watch": "sass --watch scss/main.scss css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.97.2"
+  }
+}
